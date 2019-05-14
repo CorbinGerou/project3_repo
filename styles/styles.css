@@ -1,0 +1,103 @@
+#background {
+  width: 100%;
+  height: 400px;
+  margin-bottom: -5px;
+  height: fill;
+  background-position: center;
+  display: inline-block;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  width: 97%;
+}
+
+.main-container {
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  float: left;
+  width: 97%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.header-text {
+  color: white;
+  text-shadow: 2px 2px black;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.tileBackground {
+  height: 400px;
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+/* These display elements */
+
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {display:block}
+
+main {
+  padding: 1em;
+}

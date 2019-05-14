@@ -1,0 +1,56 @@
+body {
+  background-color: #9DC9D3;
+}
+
+.header-container {
+  text-align: center;
+  border: solid;
+  border-width: 2px;
+  border-color: #6F8C92;
+  background-color: #9DD5E0;
+}
+
+.socialImg {
+  height: auto;
+  width: 100px;
+  display: inline-block;
+}
+
+#inner {
+  position: absolute;
+  width: 450px;px;
+  height: 240px;
+  text-align: center;
+  top: 25%;
+  left: 42%;
+}
+
+#inner > div {
+  float: left;
+
+}
+
+.socialLink {
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  border: solid;
+  border-width: 2px;
+  border-color: #6F8C92;
+  height: 600px;
+  margin-top: 2em;
+  background-color: #9DD5E0;
+}
+
+.hidden {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
